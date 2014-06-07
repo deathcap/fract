@@ -1,6 +1,6 @@
 {
   "name": "fract",
-  "description": "",
+  "description": "get fractional part of a number",
   "version": "0.0.1",
   "main": "fract.js",
   "repository": {
