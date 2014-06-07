@@ -2,12 +2,17 @@
   "name": "fract",
   "description": "",
   "version": "0.0.1",
+  "main": "fract.js",
   "repository": {
     "type": "git",
     "url": "git@github.com:deathcap/fract.git"
   },
   "keywords": [
-    "voxel"
+    "fraction",
+    "fract",
+    "floating",
+    "math",
+    "decimal"
   ],
   "dependencies": {
   },
