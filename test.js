@@ -29,6 +29,13 @@ test('fract', function(t) {
     t.equal((g|0) - fract(g), g);
   });
 
+  // random positive floating point sampling
+  for (var i = 0; i < 100; i += 1) {
+    var f = Math.random() * 10.0; // 0-10
+
+    t.equal((f|0) + fract(f), f);
+  }
+
   // invalid
   t.equal(isNaN(fract(Infinity)), true);
   t.equal(isNaN(fract(-Infinity)), true);
