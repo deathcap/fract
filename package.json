@@ -14,7 +14,12 @@
     "math",
     "decimal"
   ],
-  "dependencies": {
+  "dependencies": {},
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
   },
-  "license": "MIT"
+  "devDependencies": {
+    "tape": "^2.13.2"
+  }
 }
